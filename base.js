@@ -1,4 +1,4 @@
-// JS doucment
+// JS document
 
 window.onload=function(){
 	var oDiv=document.getElementById('div1');
