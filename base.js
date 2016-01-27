@@ -6,6 +6,13 @@ window.onload=function(){
 	oDiv.onmousedown=function(ev){
 		var oEvent=ev||event;
 		
+		var disX=oEvent.clientX-oDiv.offsetLeft;
+		var disY=oEvent.clientY-oDiv.offsetTop;
+		
+		oDiv.onmousemove=function(){
+			
+		}
+		
 	}
 
 
