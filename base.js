@@ -3,8 +3,9 @@
 window.onload=function(){
 	var oDiv=document.getElementById('div1');
 	
-	oDiv.onmousedown=function(e){
-		var oEvent=
+	oDiv.onmousedown=function(ev){
+		var oEvent=ev||event;
+		
 	}
 
 
